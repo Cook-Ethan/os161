@@ -100,7 +100,8 @@ pseudorand_att.o: ../../dev/generic/pseudorand_att.c \
   ../../include/dev.h ../../dev/generic/pseudorand.h autoconf.h
 catlock.o: ../../asst1/catlock.c ../../include/types.h machine/types.h \
   ../../include/kern/types.h ../../include/lib.h machine/setjmp.h \
-  ../../include/test.h ../../include/thread.h machine/pcb.h
+  ../../include/synch.h ../../include/test.h ../../include/thread.h \
+  machine/pcb.h
 catsem.o: ../../asst1/catsem.c ../../include/types.h machine/types.h \
   ../../include/kern/types.h ../../include/lib.h machine/setjmp.h \
   ../../include/test.h ../../include/thread.h machine/pcb.h
